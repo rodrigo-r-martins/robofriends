@@ -2,7 +2,7 @@ import React from 'react';
 
 const Scroll = (props) => {
 	return (
-		<div style={{overflowY: 'scroll', border: '3px solid green', height: '500px'}}>
+		<div style={{overflowY: 'scroll', border: '3px solid green', height: '700px'}}>
 			{props.children}
 		</div>
 	);
